@@ -177,6 +177,16 @@
   }
 }
 
+@media screen and (max-width:701px) {
+  .precisa {
+    .precisa_text {
+      .precisabtn1 {
+        height: 30px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width:692px) {
   .precisa {
     .precisa_text {
@@ -195,20 +205,31 @@
   }
 }
 
+@media screen and (max-width:567px) {
+  .precisa {
+    .precisa_text {
+      .precisatxt1 {
+        line-height: 40px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width:446px) {
   .precisa {
     .precisa_text {
 
 
       .precisatxt1 {
-        font-size: 12px;
+        font-size: 15px;
         line-height: 30px;
       }
 
       .precisabtn1 {
         margin-top: 5%;
         width: 120px;
-        font-size: 15px;
+        font-size: 12px;
+        height: 18px;
       }
     }
   }

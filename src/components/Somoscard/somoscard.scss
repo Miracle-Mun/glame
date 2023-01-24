@@ -39,11 +39,11 @@
   }
 
   .somoscontent {
-    width: 340px;
+    width: 345px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 300;
-    font-size: 18.1479px;
+    font-size: 17px;
     line-height: 27px;
     letter-spacing: 0.08em;
     color: #2B2847;
@@ -52,8 +52,28 @@
   }
 }
 
-@media screen and (max-width:373px) {
+@media screen and (max-width:1377px) {
   .somoswrap {
-    width: 360px;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width:467px) {
+  .somoswrap {
+    width: 320px;
+    margin-top: 20%;
+
+    .somoscontaniner {
+      margin-left: -5%;
+
+      .somostext {
+        margin-left: -5%;
+      }
+    }
+
+    .somoscontent {
+      font-size: 13px;
+      margin-left: 8%;
+    }
   }
 }

@@ -24,9 +24,7 @@ const Footer = () => {
           </div>
           <div className={pathname === '/client' ? 'emtbtn1' : 'emtbtn2'}>Enviar</div>
         </div>
-
       </div>
-
     </div>
 
   )

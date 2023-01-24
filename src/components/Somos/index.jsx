@@ -32,7 +32,7 @@ const Somos = () => {
     <div className='somos'>
       <div className='somos_top'>
         <div className='somostext'>
-          <div className='somosshape'><img src={pathname === '/client' ? '/assets/images/Vector7.png' : '/assets/images/Vector11.png'} /></div>
+          <div className='somosshape'><img src={pathname === '/client' ? '/assets/images/Vector7.png' : '/assets/images/Vector11.png'} className='soshape' /></div>
           <div className='sotext'>
             <div className='somostext1'>Somos 5 estrelas </div>
             <div className='somostext2'>Quem usou Be Glam, aprovou!</div>

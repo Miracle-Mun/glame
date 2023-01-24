@@ -85,8 +85,6 @@
       align-items: center;
       width: 264px;
       height: 50px;
-      left: 1122.25px;
-      top: 3658.74px;
       background: #60EAC0;
       border-radius: 16px;
       font-family: 'Gilroy';
@@ -202,6 +200,19 @@
         }
 
 
+      }
+    }
+  }
+}
+
+@media screen and (max-width:478px) {
+  .agende {
+    .agendewrap {
+      .agende_text {
+        .agendebtn1 {
+          width: 40%;
+          height: 30px;
+        }
       }
     }
   }

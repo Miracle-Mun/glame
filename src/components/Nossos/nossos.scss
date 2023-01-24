@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 15%;
 
   .nossos_top {
 
@@ -19,10 +19,10 @@
     }
 
     .nossos_img {
-      width: 70%;
+      width: 211px;
 
       .vector8 {
-        width: 80%;
+        width: 100%;
       }
     }
 
@@ -30,17 +30,16 @@
       font-family: 'Playfair Display';
       font-style: normal;
       font-weight: 900;
-      font-size: 31px;
+      font-size: 56px;
       line-height: 75px;
       text-align: center;
       color: #2B2847;
-      margin-left: -50%;
+      margin-left: -20%;
 
     }
   }
 
   .nossos_bottom {
-    margin-top: -10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,14 +47,50 @@
   }
 }
 
-@media screen and (max-width:426px) {
+@media screen and (max-width:936px) {
   .nossos {
     .nossos_top {
       .nossostexts {
         margin-top: 10%;
 
         .nossos_text {
-          font-size: 28px;
+          font-size: 46px;
+
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:854px) {
+  .nossos {
+    .nossos_top {
+      .nossostexts {
+        .nossos_text {
+          font-size: 36px;
+
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:800px) {
+  .nossos {
+    .nossos_top {
+      .nossostexts {
+        .nossos_img {
+          width: 100%;
+
+
+          .vector8 {
+            width: 180px;
+          }
+        }
+
+        .nossos_text {
+          font-size: 25px;
+          margin-left: -70%;
 
         }
       }

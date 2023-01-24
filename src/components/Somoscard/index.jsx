@@ -7,7 +7,7 @@ const Somoscard = (props) => {
   return (
     <div className='somoswrap'>
       <div className='somoscontaniner'>
-        <img src={props.items.img} />
+        <img src={props.items.img} className='somosimgs' />
         <div className='somostext'>
           <div className='somostitle'>{props.items.title}</div>
           {

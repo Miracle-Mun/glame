@@ -28,11 +28,11 @@
     }
 
     .comotext2 {
-      margin-top: -10%;
+      margin-top: -8%;
       font-family: 'Gilroy';
       font-style: normal;
       font-weight: 400;
-      font-size: 24px;
+      font-size: 20px;
       line-height: 28px;
       text-align: center;
       letter-spacing: 0.08em;
@@ -95,7 +95,7 @@
 }
 
 
-@media screen and (max-width:605px) {
+@media screen and (max-width:894px) {
   .como {
     .como_bottom {
       .line {
@@ -103,6 +103,14 @@
       }
 
       flex-wrap: wrap;
+    }
+  }
+}
+
+@media screen and (max-width:626px) {
+  .phonewrap {
+    .circle1 {
+      margin-top: 75%;
     }
   }
 }
@@ -137,6 +145,38 @@
 
     .como_bottom {
       margin-top: -20%;
+    }
+  }
+}
+
+@media screen and (max-width:392px) {
+  .como {
+    .como_bottom {
+      margin-left: -15%;
+    }
+  }
+}
+
+@media screen and (max-width:388px) {
+  .como {
+    .como_top {
+      .comotext {
+        .comoshape {
+          .shape {
+            width: 200px;
+          }
+        }
+
+        .comotext1 {
+          font-size: 32px;
+          margin-left: -30%;
+        }
+      }
+
+      .comotext2 {
+        margin-top: -15%;
+        font-size: 12px;
+      }
     }
   }
 }

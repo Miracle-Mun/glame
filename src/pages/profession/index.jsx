@@ -30,8 +30,10 @@ const Profession = () => {
         <div className={pathname === '/client' ? 'beglam1' : 'beglam2'}>@beglam</div>
       </div>
       <Glam />
-      <Footer />
-      <Bottom />
+      <div className={pathname === '/client' ? 'imgcolor' : 'imgcolor1'}>
+        <Footer />
+        <Bottom />
+      </div>
     </div>
   )
 }

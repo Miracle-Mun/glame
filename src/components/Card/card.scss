@@ -9,16 +9,14 @@
   margin-top: 30px;
 
   .title {
+    width: 70%;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
     padding-top: 34px;
-    /* or 21px */
-
     letter-spacing: 0.08em;
-
     color: #000000;
   }
 }
@@ -31,6 +29,20 @@
 
 @media screen and (max-width:524px) {
   .cardcontainer {
-    width: 360px;
+    width: 350px;
+
+    .title {
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width:416px) {
+  .cardcontainer {
+    width: 300px;
+
+    .title {
+      font-size: 10px;
+    }
   }
 }

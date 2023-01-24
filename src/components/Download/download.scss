@@ -37,7 +37,7 @@
           font-family: 'Gilroy';
           font-style: normal;
 
-          font-size: 24px;
+          font-size: 20px;
           line-height: 28px;
           letter-spacing: 0.08em;
           color: #000000;
@@ -52,9 +52,16 @@
           height: 50px;
           left: 254px;
           top: 663px;
-          background: #796BA2;
+          background: #796BA2 !important;
           border-radius: 16px;
           cursor: pointer;
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 800;
+          font-size: 20px;
+          line-height: 25px;
+          text-align: center;
+          letter-spacing: 0.08em;
           color: #FFFFFF;
         }
 
@@ -70,6 +77,16 @@
           background: #60EAC0;
           border-radius: 16px;
           cursor: pointer;
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 800;
+          font-size: 20px;
+          line-height: 25px;
+          /* identical to box height */
+
+          text-align: center;
+          letter-spacing: 0.08em;
+
           color: #FFFFFF;
         }
       }

@@ -17,7 +17,7 @@
 
 
     .homeleft {
-      width: 518px;
+      width: 580px;
 
       .lefttext {
         width: 100%;
@@ -73,11 +73,10 @@
 
         .beglamtext {
           padding-top: 20px;
-
           font-family: 'Gilroy';
           font-style: normal;
-          font-weight: 400;
-          font-size: 20px;
+          font-weight: 300;
+          font-size: 18px;
           line-height: 23px;
 
           letter-spacing: 0.08em;
@@ -100,16 +99,10 @@
           background: #4E819B;
           border-radius: 16px;
           cursor: pointer;
-
-          @font-face {
-            font-family: Gilroy;
-            src: url('../../../public/assets/fonts/Gilroy-Light.otf');
-          }
-
           font-family: 'Gilroy';
           font-style: normal;
           font-weight: 800;
-          font-size: 24px;
+          font-size: 22px;
           line-height: 29px;
           text-align: center;
 
@@ -131,7 +124,7 @@
           font-family: 'Gilroy';
           font-style: normal;
           font-weight: 800;
-          font-size: 24px;
+          font-size: 22px;
           line-height: 29px;
           text-align: center;
 

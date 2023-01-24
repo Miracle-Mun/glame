@@ -5,6 +5,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 const Download = (props) => {
   const { pathname } = useLocation()
+  console.log('value', pathname);
   return (
     <div className='downloadwrap'>
       <div className='downloadcontainer'>
@@ -23,7 +24,7 @@ const Download = (props) => {
             )}
 
             <div className='downloadleft_text2'>Be Glam, a beleza a três cliques de distância.</div>
-            <div className={pathname === '/cient' ? 'downloadbutton1' : 'downloadbutton2'}>
+            <div className={pathname === '/client' ? 'downloadbutton1' : 'downloadbutton2'}>
               {pathname === '/client' ? 'Baixar Agora' : 'Cadastrar'}
             </div>
           </div>
