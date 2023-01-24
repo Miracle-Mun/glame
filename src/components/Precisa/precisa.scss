@@ -1,0 +1,215 @@
+.precisa {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .woman4 {
+    width: 100%;
+
+    .girl4 {
+      width: 100%;
+    }
+  }
+
+
+  .precisa_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50%;
+    margin-left: -33%;
+
+    .precisatxt1 {
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 56px;
+      line-height: 75px;
+      text-align: center;
+
+      /* Monocromático/Branco */
+
+      color: #FFFFFF;
+    }
+
+    .precisatxt2 {
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: 0.08em;
+      margin-top: 29px;
+      /* Monocromático/Branco */
+
+      color: #FFFFFF;
+    }
+
+    .precisabtn1 {
+      margin-top: 42px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 264px;
+      height: 50px;
+      left: 1122.25px;
+      top: 3658.74px;
+      background: #796BA2;
+      border-radius: 16px;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+      color: #FFFFFF;
+    }
+
+    .precisabtn2 {
+      margin-top: 82px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 264px;
+      height: 50px;
+      left: 1122.25px;
+      top: 3658.74px;
+      background: #4E819B;
+      border-radius: 16px;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 25px;
+      /* identical to box height */
+      cursor: pointer;
+      text-align: center;
+      letter-spacing: 0.08em;
+
+      color: #FFFFFF;
+    }
+  }
+}
+
+@media screen and (max-width:1311px) {
+  .precisa {
+    .precisa_text {
+      .precisatxt1 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+      .precisatxt2 {
+        font-size: 17px;
+      }
+
+      .precisabtn1 {
+        margin-top: 10%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1123px) {
+  .precisa {
+    .precisa_text {
+      .precisatxt1 {
+        font-size: 35px;
+        line-height: 40px;
+      }
+
+      .precisatxt2 {
+        font-size: 13px;
+      }
+
+      .precisabtn1 {
+        margin-top: 5%;
+        font-size: 15px;
+        width: 200px
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1123px) {
+  .precisa {
+    .precisa_text {
+      .precisatxt1 {
+        font-size: 35px;
+        line-height: 40px;
+      }
+
+      .precisatxt2 {
+        font-size: 13px;
+      }
+
+      .precisabtn1 {
+        margin-top: 5%;
+        font-size: 15px;
+        width: 200px
+      }
+    }
+  }
+}
+
+@media screen and (max-width:949px) {
+  .precisa {
+    .precisa_text {
+
+
+      .precisatxt1 {
+        font-size: 30px;
+        line-height: 50px;
+      }
+
+      .precisatxt2 {
+        display: none;
+      }
+
+      .precisabtn1 {
+        margin-top: 10%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:692px) {
+  .precisa {
+    .precisa_text {
+
+
+      .precisatxt1 {
+        font-size: 20px;
+        line-height: 50px;
+      }
+
+      .precisabtn1 {
+        margin-top: 5%;
+        width: 150px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:446px) {
+  .precisa {
+    .precisa_text {
+
+
+      .precisatxt1 {
+        font-size: 12px;
+        line-height: 30px;
+      }
+
+      .precisabtn1 {
+        margin-top: 5%;
+        width: 120px;
+        font-size: 15px;
+      }
+    }
+  }
+}

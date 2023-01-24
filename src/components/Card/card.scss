@@ -1,0 +1,36 @@
+.cardcontainer {
+  width: 550px;
+  height: 136px;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 30px 5px rgba(108, 75, 76, 0.08);
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+  .title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    padding-top: 34px;
+    /* or 21px */
+
+    letter-spacing: 0.08em;
+
+    color: #000000;
+  }
+}
+
+@media screen and (max-width:741px) {
+  .cardcontainer {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width:524px) {
+  .cardcontainer {
+    width: 360px;
+  }
+}

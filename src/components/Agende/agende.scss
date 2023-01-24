@@ -1,0 +1,208 @@
+.agende {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+
+  .agendewrap {
+    width: 100%;
+    height: 50%;
+  }
+
+  .woman3 {
+    width: 100%;
+
+    .girl3 {
+      width: 100%;
+      height: 50%;
+    }
+  }
+
+
+  .agende_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50%;
+    margin-left: 30%;
+
+    .agendetxt1 {
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 75px;
+      text-align: center;
+
+      /* Monocromático/Branco */
+
+      color: #FFFFFF;
+    }
+
+    .agendetxt2 {
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: 0.08em;
+      margin-top: 29px;
+      /* Monocromático/Branco */
+
+      color: #FFFFFF;
+    }
+
+    .agendebtn1 {
+      margin-top: 82px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 264px;
+      height: 50px;
+      left: 1122.25px;
+      top: 3658.74px;
+      background: #796BA2;
+      border-radius: 16px;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 25px;
+      /* identical to box height */
+
+      text-align: center;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+      color: #FFFFFF;
+    }
+
+    .agendebtn2 {
+      margin-top: 82px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 264px;
+      height: 50px;
+      left: 1122.25px;
+      top: 3658.74px;
+      background: #60EAC0;
+      border-radius: 16px;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 25px;
+      /* identical to box height */
+      cursor: pointer;
+      text-align: center;
+      letter-spacing: 0.08em;
+
+      color: #FFFFFF;
+    }
+  }
+}
+
+@media screen and (max-width:1390px) {
+  .agende {
+
+
+    .agendewrap {
+      .agende_text {
+        margin-top: -54%;
+
+        .agendetxt1 {
+          font-size: 46px;
+        }
+
+        .agendetxt2 {
+          font-size: 22px;
+        }
+
+        .agendebtn1 {
+          margin-top: 4%;
+          width: 30%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1072px) {
+  .agende {
+
+
+    .agendewrap {
+      .agende_text {
+        margin-top: -54%;
+
+        .agendetxt1 {
+          font-size: 36px;
+          line-height: 60px;
+        }
+
+        .agendetxt2 {
+          font-size: 18px;
+        }
+
+        .agendebtn1 {
+          margin-top: 4%;
+          width: 35%;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:912px) {
+  .agende {
+    margin-top: 10%;
+
+    .agendewrap {
+      .agende_text {
+        margin-top: -55%;
+
+        .agendetxt1 {
+          font-size: 26px;
+          line-height: 45px;
+        }
+
+        .agendetxt2 {
+          font-size: 12px;
+        }
+
+        .agendebtn1 {
+          margin-top: 4%;
+          width: 30%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:690px) {
+  .agende {
+    .agendewrap {
+      .agende_text {
+        .agendetxt1 {
+          font-size: 15px;
+          line-height: 30px;
+        }
+
+        .agendetxt2 {
+          display: none;
+        }
+
+        .agendebtn1 {
+          width: 40%;
+          font-size: 12px;
+          ;
+        }
+
+
+      }
+    }
+  }
+}

@@ -1,0 +1,155 @@
+.downloadwrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -5%;
+
+
+  .downloadcontainer {
+
+    display: flex;
+    justify-content: space-between;
+
+    .downloadleft {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .downloadleft_text {
+        padding-top: 200px;
+
+        .downloadleft_text1 {
+          font-family: 'Playfair Display';
+          font-style: normal;
+          font-weight: 900;
+          font-size: 46px;
+          line-height: 75px;
+          color: #2B2847;
+
+          .redtext {
+            color: #EEA4A7;
+          }
+        }
+
+        .downloadleft_text2 {
+          padding-top: 30px;
+          font-family: 'Gilroy';
+          font-style: normal;
+
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: 0.08em;
+          color: #000000;
+        }
+
+        .downloadbutton1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 80px;
+          width: 264px;
+          height: 50px;
+          left: 254px;
+          top: 663px;
+          background: #796BA2;
+          border-radius: 16px;
+          cursor: pointer;
+          color: #FFFFFF;
+        }
+
+        .downloadbutton2 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 80px;
+          width: 264px;
+          height: 50px;
+          left: 254px;
+          top: 663px;
+          background: #60EAC0;
+          border-radius: 16px;
+          cursor: pointer;
+          color: #FFFFFF;
+        }
+      }
+    }
+
+    .downloadright {
+      width: 100%;
+      margin-top: 10%;
+
+
+      .woman2 {
+        width: 85%;
+
+
+        .girl2 {
+          width: 100%;
+
+        }
+      }
+
+    }
+
+  }
+
+
+
+}
+
+@media screen and (max-width:965px) {
+  .downloadwrap {
+    .downloadcontainer {
+      .downloadright {
+        display: none;
+      }
+
+      .downloadleft {
+        margin-top: -20%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:625px) {
+  .downloadwrap {
+    .downloadcontainer {
+      .downloadleft {
+        .downloadleft_text {
+          margin-top: -20%;
+
+          .downloadleft_text1 {
+            font-size: 35px;
+          }
+
+          .downloadleft_text2 {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:431px) {
+  .downloadwrap {
+    .downloadcontainer {
+      .downloadleft {
+
+
+        .downloadleft_text {
+          margin-top: -50%;
+
+          .downloadleft_text1 {
+            font-size: 20px;
+          }
+
+          .downloadleft_text2 {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

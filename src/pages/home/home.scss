@@ -1,0 +1,453 @@
+.homecontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../../public/assets/images/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+  .homewrap {
+    max-width: 1322px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+
+    .homeleft {
+      width: 518px;
+
+      .lefttext {
+        width: 100%;
+        margin-top: 100px;
+
+        .logo {
+          width: 109px;
+          height: 147px;
+        }
+
+        .glam {
+          margin-left: 25%;
+          width: 100%;
+
+          .be {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+            color: #EEA4A7;
+            margin-top: -30px;
+          }
+
+          .glamtext {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 53px;
+            line-height: 63px;
+            color: #4E819B;
+          }
+        }
+
+
+        .who {
+          display: flex;
+
+          width: 100%;
+
+          .whotext {
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 75px;
+            color: #2B2847;
+            margin-left: -50px;
+            margin-top: 20px;
+          }
+
+        }
+
+        .beglamtext {
+          padding-top: 20px;
+
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 23px;
+
+          letter-spacing: 0.08em;
+          color: #000000;
+        }
+
+        .button {
+          text-decoration: none;
+        }
+
+        .button1 {
+          width: 90%;
+          margin-top: 74px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 5px 3px;
+          gap: 10px;
+          background: #4E819B;
+          border-radius: 16px;
+          cursor: pointer;
+
+          @font-face {
+            font-family: Gilroy;
+            src: url('../../../public/assets/fonts/Gilroy-Light.otf');
+          }
+
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 800;
+          font-size: 24px;
+          line-height: 29px;
+          text-align: center;
+
+          color: #FFFFFF;
+        }
+
+        .button2 {
+          width: 90%;
+          margin-top: 24px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 5px 3px;
+          text-decoration: none;
+          background: #EEA4A7;
+          border-radius: 16px;
+          cursor: pointer;
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 800;
+          font-size: 24px;
+          line-height: 29px;
+          text-align: center;
+
+          color: #FFFFFF;
+        }
+
+        .shape {
+          width: 100%;
+          margin-top: 122px;
+          margin-bottom: 79px;
+          margin: 40px;
+        }
+      }
+    }
+
+    .homeright {
+      width: 710px;
+
+      .woman1 {
+        width: 100%;
+        margin-top: -10%;
+
+        .girl1 {
+          width: 100%;
+        }
+      }
+
+
+    }
+
+  }
+}
+
+@media screen and (max-width:1472px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .beglamtext {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1165px) {
+  .homecontainer {
+    .homewrap {
+
+      .homeleft {
+        .lefttext {
+          .glam {
+            .be {
+              font-size: 20px;
+            }
+
+            .glamtext {
+              font-size: 40px;
+            }
+          }
+
+          .who {
+            .whotext {
+              font-size: 46px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1362px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .who {
+            .whotext {
+              font-size: 42px;
+            }
+          }
+
+          .beglamtext {
+            font-size: 17px;
+          }
+        }
+      }
+
+
+    }
+  }
+}
+
+@media screen and (max-width:1323px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .button2 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1251px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .who {
+            .whotext {
+              font-size: 40px;
+            }
+          }
+
+          .beglamtext {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1104px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .glam {
+            .glamtext {
+              font-size: 35px;
+            }
+          }
+
+          .who {
+            .whotext {
+              font-size: 35px;
+            }
+          }
+
+          .beglamtext {
+            font-size: 13px;
+          }
+
+          .button1 {
+            font-size: 17px;
+          }
+
+          .button2 {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:957px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .who {
+            .whotext {
+              font-size: 46px;
+            }
+          }
+
+          .beglamtext {
+            font-size: 22px;
+          }
+        }
+      }
+
+      .homeright {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:683px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .beglamtext {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:621px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .who {
+            .whotext {
+              font-size: 42px;
+            }
+          }
+
+          .beglamtext {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:559px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .beglamtext {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:535px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .who {
+            .whotext {
+              font-size: 30px;
+            }
+          }
+
+          .beglamtext {
+            font-size: 15px;
+          }
+
+          .button1 {
+            font-size: 18px;
+          }
+
+          .button2 {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:466px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .beglamtext {
+            font-size: 13.5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:418px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .who {
+            .whotext {
+              font-size: 25px;
+            }
+          }
+
+          .beglamtext {
+            font-size: 12px;
+          }
+
+          .button1 {
+            font-size: 12px;
+          }
+
+          .button2 {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:373px) {
+  .homecontainer {
+    .homewrap {
+      .homeleft {
+        .lefttext {
+          .beglamtext {
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+}

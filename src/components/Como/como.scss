@@ -1,0 +1,142 @@
+.como {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .como_top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .comotext {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .comotext1 {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 75px;
+        text-align: center;
+        color: #2B2847;
+        margin-left: -20%;
+      }
+    }
+
+    .comotext2 {
+      margin-top: -10%;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: 0.08em;
+      color: #000000;
+    }
+  }
+
+  .como_bottom {
+    .line {
+      position: absolute;
+      width: 890px;
+      height: 0px;
+      border: 1px dashed #796BA2;
+      margin-top: 5%;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+  }
+}
+
+@media screen and (max-width:1101px) {
+  .como {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width:1216px) {
+  .como {
+    .como_bottom {
+      .line {
+        width: 870px;
+        margin-left: 10%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1104px) {
+  .como {
+    .como_bottom {
+      .line {
+        width: 750px;
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .como {
+    .como_bottom {
+      .line {
+        width: 650px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:605px) {
+  .como {
+    .como_bottom {
+      .line {
+        display: none;
+      }
+
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media screen and (max-width:543px) {
+  .como {
+    .como_top {
+      .comotext {
+        .comotext1 {
+          font-size: 45px;
+        }
+      }
+
+      .comotext2 {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:427px) {
+  .como {
+    .como_top {
+      margin-left: 15%;
+
+      .comotext {
+        .comotext1 {
+          font-size: 35px;
+        }
+      }
+    }
+
+    .como_bottom {
+      margin-top: -20%;
+    }
+  }
+}
