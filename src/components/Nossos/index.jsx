@@ -47,7 +47,7 @@ const Nossos = () => {
     <div className='nossos'>
       <div className='nossos_top'>
         <div className='nossostexts'>
-          <div className='nossos_img'><img src={pathname === '/client' ? './assets/images/vector8.png' : './assets/images/vector10.png'} className='vector8' /></div>
+          <div className='nossos_img'><img src={pathname === '/client' ? '/assets/images/vector8.png' : '/assets/images/vector10.png'} className='vector8' /></div>
           <div className='nossos_text'>Nossos Serviços</div>
         </div>
       </div>

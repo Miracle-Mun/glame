@@ -20,10 +20,10 @@ const cards = [
 const Phone = () => {
   return (
     <div className='phonewrap'>
-      <a href='#phonecontainer'><div className='circle1'> <img src='./assets/images/arrow.png' /></div></a>
+      <a href='#phonecontainer'><div className='circle1'> <img src='/assets/images/arrow.png' /></div></a>
       <div className='phonecontainer' id='phonecontainer'>
         <div className='phoneleft'>
-          <div className='phoneleft_img'></div><img src='./assets/images/phone.png' className='phone' />
+          <div className='phoneleft_img'></div><img src='/assets/images/phone.png' className='phone' />
         </div>
         <div className='phoneright'>
           <div className='card'>
@@ -33,11 +33,11 @@ const Phone = () => {
           </div>
           <div className='phonebtn'>
             <div className='phoneleft'>
-              <img src='./assets/images/app.png' />
+              <img src='/assets/images/app.png' />
               <div className='phoneleft_text'>App Store</div>
             </div>
             <div className='phoneright1'>
-              <img src='./assets/images/google.png' />
+              <img src='/assets/images/google.png' />
               <div className='phoneright_text'>Google Play</div>
             </div>
           </div>

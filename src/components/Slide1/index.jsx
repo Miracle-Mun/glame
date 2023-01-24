@@ -4,19 +4,19 @@ import CarouselSlider from "react-carousel-slider";
 let data = [
   {
     des: "1",
-    imgSrc: "./assets/images/slide5.png"
+    imgSrc: "/assets/images/slide5.png"
   },
   {
     des: "2",
-    imgSrc: "./assets/images/slide6.png"
+    imgSrc: "/assets/images/slide6.png"
   },
   {
     des: "3",
-    imgSrc: "./assets/images/slide7.png"
+    imgSrc: "/assets/images/slide7.png"
   },
   {
     des: "4",
-    imgSrc: "./assets/images/slide8.png"
+    imgSrc: "/assets/images/slide8.png"
   },
 ];
 

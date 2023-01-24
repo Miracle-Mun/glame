@@ -7,7 +7,7 @@ const Agende = () => {
   return (
     <div className='agende'>
       <div className='agendewrap'>
-        <div className='woman3'><img src={pathname === '/client' ? './assets/images/woman3.png' : './assets/images/woman7.png'} className='girl3' /></div>
+        <div className='woman3'><img src={pathname === '/client' ? '/assets/images/woman3.png' : '/assets/images/woman7.png'} className='girl3' /></div>
         {pathname === '/client' ? (
           <div className='agende_text'>
             <div className='agendetxt1'>Agende com um <br />profissional em minutos.</div>

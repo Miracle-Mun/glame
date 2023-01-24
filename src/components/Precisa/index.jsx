@@ -6,7 +6,7 @@ const Precisa = () => {
   const { pathname } = useLocation()
   return (
     <div className='precisa'>
-      <div className='woman4'><img src={pathname === '/client' ? './assets/images/woman4.png' : './assets/images/woman8.png'} className='girl4' /></div>
+      <div className='woman4'><img src={pathname === '/client' ? '/assets/images/woman4.png' : '/assets/images/woman8.png'} className='girl4' /></div>
       {pathname === '/client' ? (
         <div className='precisa_text'>
           <div className='precisatxt1'>Precisa de um <br />profissional agora?</div>

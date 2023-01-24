@@ -31,7 +31,7 @@ const Como = () => {
     <div className='como'>
       <div className='como_top'>
         <div className='comotext'>
-          <div className='comoshape'><img src={pathname === '/client' ? './assets/images/Vector7.png' : './assets/images/Vector9.png'} className='shape' /></div>
+          <div className='comoshape'><img src={pathname === '/client' ? '/assets/images/Vector7.png' : '/assets/images/Vector9.png'} className='shape' /></div>
           <div className='comotext1'>Como usar?</div>
         </div>
         <div className='comotext2'>Para usar Be Glam é muito fácil e prático,<br /> com quatro passos simples.</div>

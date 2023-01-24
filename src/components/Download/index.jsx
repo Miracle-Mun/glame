@@ -29,7 +29,7 @@ const Download = (props) => {
           </div>
         </div>
         <div className='downloadright'>
-          <div className='woman2'><img src={pathname === '/client' ? './assets/images/woman2.png' : './assets/images/woman6.png'} className='girl2' /></div>
+          <div className='woman2'><img src={pathname === '/client' ? '/assets/images/woman2.png' : '/assets/images/woman6.png'} className='girl2' /></div>
         </div>
       </div>
       <ScrollToTop smooth />

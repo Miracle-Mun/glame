@@ -10,7 +10,7 @@ const Header = () => {
     <div className='headerwrap'>
       <div className='headercontainer'>
         <a href='/'><div className='logo'>
-          <img src={pathname === '/client' ? './assets/images/logo1.png' : './assets/images/logo2.png'} className='logos' />
+          <img src={pathname === '/client' ? '/assets/images/logo1.png' : '/assets/images/logo2.png'} className='logos' />
         </div></a>
         <div className='btns'>
           <div className={pathname === '/client' ? 'btn1' : 'btn2'}>Sobre a BeGlam</div>
