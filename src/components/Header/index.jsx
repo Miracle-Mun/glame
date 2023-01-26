@@ -21,7 +21,7 @@ const Header = () => {
           <div className={pathname === '/client' ? 'btn1' : 'btn2'}>Contato</div>
         </div>
       </div>
-      <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
+      {/* <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} /> */}
     </div>
   )
 }
