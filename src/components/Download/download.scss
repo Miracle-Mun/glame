@@ -260,6 +260,8 @@
 
 @media screen and (max-width:970px) {
   .downloadwrap {
+    margin-top: 10%;
+
     .downloadcontainer {
       display: flex;
       flex-direction: column;
@@ -283,6 +285,27 @@
         .woman2 {
           width: 80%;
           margin-top: -10%;
+
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:755px) {
+  .downloadwrap {
+    .downloadcontainer {
+      .downloadleft {
+        .downloadleft_text {
+          margin-left: -10%;
+
+          .downloadleft_text1 {
+            font-size: 25px;
+          }
+
+          .downloadleft_text2 {
+            font-size: 10px;
+          }
         }
       }
     }
