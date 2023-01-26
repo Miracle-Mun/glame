@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+let i = 0;
+
 export const useResize = () => {
   const [screenSize, setScreenSize] = useState({
     width: 0,
@@ -18,11 +20,13 @@ export const useResize = () => {
   }
 
   useEffect(() => {
-    window.addEventListener("resize", updateSize)
-    updateSize()
-
-    return () => {
-      window.removeEventListener("resize", updateSize)
+    if (i === 0) {
+      window.addEventListener("resize", updateSize)
+      updateSize()
+      i += 1
+      return () => {
+        window.removeEventListener("resize", updateSize)
+      }
     }
   }, [])
 
