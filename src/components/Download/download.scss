@@ -1,18 +1,22 @@
 .downloadwrap {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: -5%;
-
+  padding: 0px 193px;
+  height: 80vh;
 
   .downloadcontainer {
 
     display: flex;
     justify-content: space-between;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 30px;
+    margin-top: -5%;
+    width: 100%;
+    gap: 34px;
 
     .downloadleft {
-      width: 100%;
+      width: 110%;
       display: flex;
       flex-direction: column;
 
@@ -23,7 +27,7 @@
           font-family: 'Playfair Display';
           font-style: normal;
           font-weight: 900;
-          font-size: 46px;
+          font-size: 56px;
           line-height: 75px;
           color: #2B2847;
 
@@ -115,26 +119,56 @@
 
 }
 
-@media screen and (max-width:965px) {
+@media screen and (max-width:1866px) {
   .downloadwrap {
     .downloadcontainer {
-      .downloadright {
-        display: none;
-      }
-
       .downloadleft {
-        margin-top: -20%;
+        .downloadleft_text {
+          .downloadleft_text1 {
+            font-size: 46px;
+          }
+        }
       }
     }
   }
 }
 
-@media screen and (max-width:625px) {
+@media screen and (max-width:1608px) {
   .downloadwrap {
     .downloadcontainer {
       .downloadleft {
         .downloadleft_text {
-          margin-top: -20%;
+          .downloadleft_text1 {
+            font-size: 40px;
+          }
+
+          .downloadleft_text2 {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .downloadright {
+        .woman2 {
+          width: 120%
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1453px) {
+  .downloadwrap {
+    .downloadcontainer {
+      margin-top: -15%;
+
+      .downloadleft {
+        .downloadleft_text {
+          .downloadbutton1 {
+            margin-top: 7%;
+            font-size: 15px;
+            width: 45%;
+          }
 
           .downloadleft_text1 {
             font-size: 35px;
@@ -145,26 +179,110 @@
           }
         }
       }
+
+      .downloadright {
+        .woman2 {
+          width: 120%
+        }
+      }
     }
   }
 }
 
-@media screen and (max-width:431px) {
+@media screen and (max-width:1324px) {
   .downloadwrap {
     .downloadcontainer {
       .downloadleft {
-
-
         .downloadleft_text {
-          margin-top: -50%;
-
           .downloadleft_text1 {
-            font-size: 20px;
+            font-size: 30px;
           }
 
           .downloadleft_text2 {
-            font-size: 12px;
+            font-size: 15px;
           }
+        }
+      }
+
+      .downloadright {
+        .woman2 {
+          width: 140%
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1195px) {
+  .downloadwrap {
+    .downloadcontainer {
+      .downloadleft {
+        .downloadleft_text {
+          .downloadleft_text1 {
+            font-size: 25px;
+          }
+
+          .downloadleft_text2 {
+            font-size: 10px;
+          }
+        }
+      }
+
+      .downloadright {
+        .woman2 {
+          width: 130%;
+          margin-top: 30%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1066px) {
+  .downloadwrap {
+    .downloadcontainer {
+      .downloadleft {
+        .downloadleft_text {
+          .downloadleft_text1 {
+            font-size: 20px;
+          }
+        }
+      }
+
+      .downloadright {
+        .woman2 {
+          width: 130%
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:970px) {
+  .downloadwrap {
+    .downloadcontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .downloadleft {
+        margin-left: 20%;
+
+        .downloadleft_text {
+          .downloadleft_text1 {
+            font-size: 30px;
+          }
+
+          .downloadleft_text2 {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .downloadright {
+        .woman2 {
+          width: 80%;
+          margin-top: -10%;
         }
       }
     }

@@ -8,10 +8,10 @@ const Nossoscard = (props) => {
     <div className='nossoswrap'>
       {
         pathname === '/client' ? (
-          <img src={props.items.img} className='nossosimg' />
+          <img src={props.items.img} className='nossosimg' alt='' />
         ) :
           (
-            <img src={props.items.img1} className='nossosimg' />
+            <img src={props.items.img1} className='nossosimg' alt='' />
           )
       }
 

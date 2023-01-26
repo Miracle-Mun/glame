@@ -31,15 +31,31 @@ const Como = () => {
     <div className='como'>
       <div className='como_top'>
         <div className='comotext'>
-          <div className='comoshape'><img src={pathname === '/client' ? '/assets/images/Vector7.png' : '/assets/images/Vector9.png'} className='shape' /></div>
+          <div className='comoshape'><img src={pathname === '/client' ? '/assets/images/pink.png' : '/assets/images/gray.png'} className='shape' /></div>
           <div className='comotext1'>Como usar?</div>
         </div>
         <div className='comotext2'>Para usar Be Glam é muito fácil e prático,<br /> com quatro passos simples.</div>
       </div>
       <div className='como_bottom'>
-        <div className='line'></div>
-        <div className=''></div>{comocards.map((comocard, index) => (<Comocard items={comocard} key={index} />))}
+        <div className='comobottomwrap'>
+
+          {comocards.map((comocard, index) => {
+            if (index < comocards.length - 1) {
+              return (
+                <>
+                  <Comocard items={comocard} key={index} />
+                  <div className='line'></div>
+                </>
+              )
+            } else {
+              return <Comocard items={comocard} key={index} />
+            }
+          })}
+        </div>
+
       </div>
+
+
     </div>
   )
 }

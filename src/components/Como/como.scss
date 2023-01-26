@@ -41,18 +41,42 @@
   }
 
   .como_bottom {
-    .line {
-      position: absolute;
-      width: 890px;
-      height: 0px;
-      border: 1px dashed #796BA2;
-      margin-top: 5%;
+    .comobottomwrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
     }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%
+    .line {
+      width: 150px;
+      height: 0px;
+      border: 1px dashed #796BA2;
+      margin-top: 3%;
+    }
+
+
+  }
+}
+
+@media screen and (max-width:1323px) {
+  .como_bottom {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .como {
+    .como_bottom {
+      .comobottomwrap {
+        display: flex;
+        flex-direction: column;
+
+        .line {
+          display: none;
+        }
+      }
+    }
   }
 }
 
@@ -62,50 +86,6 @@
   }
 }
 
-@media screen and (max-width:1216px) {
-  .como {
-    .como_bottom {
-      .line {
-        width: 870px;
-        margin-left: 10%;
-      }
-    }
-  }
-}
-
-@media screen and (max-width:1104px) {
-  .como {
-    .como_bottom {
-      .line {
-        width: 750px;
-
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 920px) {
-  .como {
-    .como_bottom {
-      .line {
-        width: 650px;
-      }
-    }
-  }
-}
-
-
-@media screen and (max-width:894px) {
-  .como {
-    .como_bottom {
-      .line {
-        display: none;
-      }
-
-      flex-wrap: wrap;
-    }
-  }
-}
 
 @media screen and (max-width:626px) {
   .phonewrap {

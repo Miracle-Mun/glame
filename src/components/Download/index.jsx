@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import './download.scss';
 import ScrollToTop from "react-scroll-to-top";
 
-const Download = (props) => {
+const Download = () => {
   const { pathname } = useLocation()
   console.log('value', pathname);
   return (

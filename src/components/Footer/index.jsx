@@ -9,9 +9,9 @@ const Footer = () => {
       <div className='footerleft'>
         <div className='footerleft_text'>Redes Sociais</div>
         <div className='soicals'>
-          <img src={pathname === '/client' ? '/assets/images/facebook.png' : '/assets/images/facebook1.png'} />
-          <img src={pathname === '/client' ? '/assets/images/instagram.png' : '/assets/images/instagram1.png'} />
-          <img src={pathname === '/client' ? '/assets/images/tictok.png' : '/assets/images/tictok1.png'} />
+          <img src={pathname === '/client' ? '/assets/images/facebook.png' : '/assets/images/facebook1.png'} alt='' />
+          <img src={pathname === '/client' ? '/assets/images/instagram.png' : '/assets/images/instagram1.png'} alt='' />
+          <img src={pathname === '/client' ? '/assets/images/tictok.png' : '/assets/images/tictok1.png'} alt='' />
         </div>
       </div>
       <div className='footerright'>

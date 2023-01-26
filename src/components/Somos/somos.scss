@@ -57,10 +57,10 @@
   }
 }
 
-@media screen and (max-width:1377px) {
+@media screen and (max-width:1085px) {
   .somos {
     .somos_bottom {
-      flex-direction: column;
+      flex-wrap: wrap;
     }
   }
 }

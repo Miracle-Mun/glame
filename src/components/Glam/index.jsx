@@ -9,7 +9,7 @@ const Glam = (props) => {
   const { pathname } = useLocation()
   return (
     <div className='glamimg'>
-      <div className='women'><img src={pathname === '/client' ? '/assets/images/bg2.png' : '/assets/images/bg4.png'} className='girls' /></div>
+      <div className='women'><img src={pathname === '/client' ? '/assets/images/bg2.png' : '/assets/images/bg4.png'} className='girls' alt='' /></div>
       <div className='slides'>
         {
           pathname === '/client' ? (

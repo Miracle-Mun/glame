@@ -21,28 +21,14 @@
   }
 }
 
+@media screen and (max-width:1188px) {
+  .cardcontainer {
+    margin-left: -22%;
+  }
+}
+
 @media screen and (max-width:741px) {
   .cardcontainer {
     width: 450px;
-  }
-}
-
-@media screen and (max-width:524px) {
-  .cardcontainer {
-    width: 350px;
-
-    .title {
-      font-size: 12px;
-    }
-  }
-}
-
-@media screen and (max-width:416px) {
-  .cardcontainer {
-    width: 300px;
-
-    .title {
-      font-size: 10px;
-    }
   }
 }

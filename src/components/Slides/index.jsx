@@ -43,16 +43,16 @@ const Slides = () => {
     <>
       <Slider {...settings}>
         <div>
-          <img src='/assets/images/slide1.png' />
+          <img src='/assets/images/slide1.png' alt='' />
         </div>
         <div>
-          <img src='/assets/images/slide2.png' />
+          <img src='/assets/images/slide2.png' alt='' />
         </div>
         <div>
-          <img src='/assets/images/slide3.png' />
+          <img src='/assets/images/slide3.png' alt='' />
         </div>
         <div>
-          <img src='/assets/images/slide4.jpg' />
+          <img src='/assets/images/slide4.jpg' alt='' />
         </div>
       </Slider>
     </>

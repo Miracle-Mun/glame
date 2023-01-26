@@ -1,10 +1,9 @@
 .phonewrap {
   width: 100%;
-  margin-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1%;
+
 
 
   .circle1 {
@@ -39,9 +38,8 @@
       }
 
       .phonebtn {
-        margin-left: -13%;
         margin-top: 93px;
-        width: 100%;
+        width: 594px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -103,86 +101,70 @@
   }
 }
 
+@media screen and (max-width:1188px) {
+  .phonewrap {
+    .phonecontainer {
+      .phonebtn {
+        margin-left: -27%;
+      }
+    }
+  }
+}
+
 @media screen and (max-width:1123px) {
+  .phonewrap {
+    .phonecontainer {
+
+      .phoneleft {
+        width: 50%;
+      }
+
+      .phoneright {
+        width: 50%;
+
+
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:957px) {
   .phonewrap {
     .phonecontainer {
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+  }
+}
 
-      .phoneleft {
-        width: 50%;
-      }
-
+@media screen and (max-width:742px) {
+  .phonewrap {
+    .phonecontainer {
       .phoneright {
-        width: 50%;
-
         .phonebtn {
-          margin-left: 0%;
+          width: 450px;
         }
       }
     }
   }
 }
 
-@media screen and (max-width:1011px) {
+@media screen and (max-width:673px) {
   .phonewrap {
-    .phonecontainer {
-      .phoneright {
-        .phonebtn {
-          margin-left: 7%;
-        }
-      }
+    .circle1 {
+      margin-left: 80%;
+      margin-top: 90%;
     }
   }
 }
 
-@media screen and (max-width:755px) {
+@media screen and (max-width:513px) {
   .phonewrap {
-    .phonecontainer {
-      margin-left: -10%;
-    }
-  }
-}
+    .circle1 {
+      margin-left: 400%;
 
-@media screen and (max-width:439px) {
-  .phonewrap {
-    .phonecontainer {
-      .phoneleft {
-        margin-right: -40%;
-      }
-
-      margin-left: -20%;
-    }
-  }
-}
-
-@media screen and (max-width:689px) {
-  .phonewrap {
-    .phonecontainer {
-      .phoneright {
-        .phonebtn {
-          .phoneleft {
-            width: 450px;
-          }
-
-          .phoneright1 {
-            width: 450px;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width:439px) {
-  .phonewrap {
-    .phonecontainer {
-      .phoneright {
-        .phonebtn {
-          margin-left: 35%;
-        }
-      }
     }
   }
 }
