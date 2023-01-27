@@ -18,8 +18,8 @@ const Home = () => {
               <div className='whotext'>Who are you?</div>
             </div>
             <div className='beglamtext'>Be Glam, a beleza a três cliques de distância.</div>
-            <Link to='client' className='button'><div className='button1'>Sou profissional de beleza</div></Link>
-            <Link to='profession' className='button'><div className='button2'>Quero Contratar uma profissional</div></Link>
+            <Link to='profession' className='button'><div className='button1'>Sou profissional de beleza</div></Link>
+            <Link to='client' className='button'><div className='button2'>Quero Contratar uma profissional</div></Link>
             <div className='shape'><img src='/assets/images/violet.png' alt='' /></div>
           </div>
         </div>

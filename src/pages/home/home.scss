@@ -1,5 +1,5 @@
 .homecontainer {
-  background-image: url('../../../public/assets/images/background.svg');
+  background-image: url('../../../public/assets/images/background.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14,21 +14,28 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    gap: 30px;
+    gap: 100px;
     padding: 0px 30px;
+    padding-left: 10%;
 
     .homeleft {
       .lefttext {
         width: 100%;
+        margin-top: 8%;
 
         .logo {
           width: 109px;
           height: 147px;
+          margin-left: 3%;
         }
 
         .glam {
-          margin-left: 25%;
           width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
 
           .be {
             font-family: 'Roboto';
@@ -37,7 +44,8 @@
             font-size: 30px;
             line-height: 36px;
             color: #EEA4A7;
-            margin-top: -30px;
+            margin-top: -25px;
+            margin-left: -93px;
           }
 
           .glamtext {
@@ -86,7 +94,7 @@
         }
 
         .button1 {
-          width: 90%;
+          width: 95%;
           margin-top: 74px;
           display: flex;
           flex-direction: row;
@@ -108,7 +116,7 @@
         }
 
         .button2 {
-          width: 90%;
+          width: 95%;
           margin-top: 24px;
           display: flex;
           flex-direction: row;
@@ -131,18 +139,18 @@
 
         .shape {
           width: 100%;
-          margin-top: 122px;
-          margin-bottom: 79px;
-          margin: 40px;
+          padding-top: 100px;
+          padding-left: 78px;
         }
       }
     }
 
     .homeright {
+      width: 40%;
 
       .woman1 {
         width: 100%;
-        margin-top: -25%;
+        margin-top: -17%;
 
         .girl1 {
           width: 100%;
@@ -155,11 +163,27 @@
   }
 }
 
-@media screen and (max-width:1284px) {
+@media screen and (max-width:1135px) {
   .homecontainer {
     .homewrap {
       .homeleft {
         .lefttext {
+          .glam {
+            .be {
+              font-size: 25px;
+            }
+
+            .glamtext {
+              font-size: 48px;
+            }
+          }
+
+          .who {
+            .whotext {
+              font-size: 51px;
+            }
+          }
+
           .beglamtext {
             font-size: 18px;
           }
@@ -169,29 +193,11 @@
   }
 }
 
-@media screen and (max-width:1235px) {
+@media screen and (max-width:1045px) {
   .homecontainer {
     .homewrap {
       .homeleft {
         .lefttext {
-          .beglamtext {
-            font-size: 16px;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width:1207px) {
-  .homecontainer {
-    .homewrap {
-      .homeleft {
-        .lefttext {
-          .logo {
-            width: 30%;
-          }
-
           .glam {
             .glamtext {
               font-size: 43px;
@@ -200,132 +206,22 @@
 
           .who {
             .whotext {
-              font-size: 46px;
-            }
-          }
-
-          .beglamtext {
-            font-size: 16px;
-          }
-        }
-      }
-
-      .homeright {
-        .woman1 {
-          width: 90%;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width:1185px) {
-  .homecontainer {
-    .homewrap {
-
-
-      .homeleft {
-        .lefttext {
-          .beglamtext {
-            font-size: 14px;
-          }
-
-          .button2 {
-            font-size: 20px;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width:1144px) {
-  .homecontainer {
-    .homewrap {
-      .homeleft {
-        .lefttext {
-          .button2 {
-            font-size: 18px;
-          }
-
-          .button1 {
-            font-size: 18px;
-          }
-
-          .who {
-            .whotext {
-              font-size: 40px;
-            }
-          }
-
-          .glam {
-            .glamtext {
-              font-size: 38px;
-            }
-          }
-
-          .beglamtext {
-            font-size: 12px;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width:1100px) {
-  .homecontainer {
-    .homewrap {
-      .homeleft {
-        .lefttext {
-          .who {
-            .whotext {
               font-size: 35px;
             }
           }
 
-          .glam {
-            .be {
-              font-size: 25px;
-            }
-
-            .glamtext {
-              font-size: 32px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width:1088px) {
-  .homecontainer {
-    .homewrap {
-      .homeleft {
-        .lefttext {
-          .glam {
-            .glamtext {
-              font-size: 28px;
-            }
-          }
-
-          .who {
-            .whotext {
-              font-size: 30px;
-            }
-          }
-
           .beglamtext {
-            font-size: 10px;
+            font-size: 15px;
           }
 
           .button1 {
-            font-size: 14px;
+            width: 90%;
+            font-size: 18px;
           }
 
           .button2 {
-            font-size: 14px;
+            width: 90%;
+            font-size: 18px;
           }
         }
       }
@@ -333,50 +229,36 @@
   }
 }
 
-@media screen and (max-width:1043px) {
+@media screen and (max-width:906px) {
   .homecontainer {
-    .homewrap {
-      .homeleft {
-        .lefttext {
-          .beglamtext {
-            font-size: 8px;
-          }
+    width: 100%;
+    height: 120vh;
 
-          .glam {
-            .glamtext {
-              font-size: 27px;
-            }
-          }
-
-          .who {
-            .whotext {
-              font-size: 25px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width:1012px) {
-  .homecontainer {
     .homewrap {
       display: flex;
       flex-direction: column;
 
-      .homeleft {
-        margin-top: 50%;
 
+      .homeleft {
         .lefttext {
+          .who {
+            .whotext {
+              font-size: 45px;
+            }
+          }
+
           .beglamtext {
-            font-size: 10px;
+            font-size: 15px;
+          }
+
+          .button1 {
+            width: 92%;
+          }
+
+          .button2 {
+            width: 92%;
           }
         }
-      }
-
-      .homeright {
-        margin-top: 10%;
       }
     }
   }
