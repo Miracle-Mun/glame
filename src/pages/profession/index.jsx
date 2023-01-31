@@ -1,12 +1,12 @@
 import React from 'react';
 import './profession.scss'
-import Header from '../../components/Header';
-import Download from '../../components/Download';
-import Phone from '../../components/Phone';
+import Header2 from '../../components/Header2';
+import Download2 from '../../components/Download2';
+import Phone2 from '../../components/Phone2';
 import Como from '../../components/Como';
-import Agende from '../../components/Agende';
-import Nossos from '../../components/Nossos';
-import Precisa from '../../components/Precisa';
+import Agende2 from '../../components/Agende2';
+import Nossos2 from '../../components/Nossos2';
+import Precisa2 from '../../components/Precisa2';
 import Somos from '../../components/Somos';
 import Glam from '../../components/Glam';
 import Footer from '../../components/Footer';
@@ -17,13 +17,13 @@ const Profession = () => {
   const { pathname } = useLocation()
   return (
     <div className='professionwrap'>
-      <Header />
-      <Download />
-      <Phone />
+      <Header2 />
+      <Download2 />
+      <Phone2 />
       <Como />
-      <Agende />
-      <Nossos />
-      <Precisa />
+      <Agende2 />
+      <Nossos2 />
+      <Precisa2 />
       <Somos />
       <div className='glamtext'>
         <div className='glam'>Be Glam por aí</div>

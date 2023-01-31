@@ -28,7 +28,7 @@ const comocards = [
 const Como = () => {
   const { pathname } = useLocation()
   return (
-    <div className='como'>
+    <div className='como' id='como'>
       <div className='como_top'>
         <div className='comotext'>
           <div className='comoshape'><img src={pathname === '/client' ? '/assets/images/pink.png' : '/assets/images/gray.png'} className='shape' /></div>

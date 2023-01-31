@@ -1,7 +1,8 @@
 .professionwrap {
-  width: 100%;
   background-image: url('../../../public/assets/images/bg3.png');
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
 
   .glamtext {
     display: flex;
@@ -14,12 +15,7 @@
       font-weight: 900;
       font-size: 56px;
       line-height: 75px;
-      /* identical to box height */
-
       text-align: center;
-
-      /* Monocromático/Preto */
-
       color: #2B2847;
       margin-top: 165px;
     }

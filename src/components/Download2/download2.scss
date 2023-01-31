@@ -1,0 +1,208 @@
+.downloadwrap2 {
+  padding-left: 274px;
+  padding-right: 94px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 430px;
+
+
+
+
+  .download2left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 124px;
+
+    .download2left_text {
+
+
+      .download2left_text1 {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 75px;
+        color: #2B2847;
+
+
+        .redtext2 {
+          color: #4E819B
+        }
+      }
+
+      .download2left_text2 {
+        padding-top: 30px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.08em;
+        color: #000000;
+      }
+
+
+
+      .download2button2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        width: 264px;
+        height: 50px;
+        left: 254px;
+        top: 663px;
+        background: #60EAC0;
+        border-radius: 16px;
+        cursor: pointer;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 0.08em;
+
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  .download2right {
+    width: 100%;
+    margin-left: -46px;
+
+
+
+    .download2woman2 {
+      width: 100%;
+
+
+      .download2girl2 {
+        width: 85%;
+
+      }
+    }
+
+  }
+
+}
+
+
+@media screen and (max-width:1900px) {
+  .downloadwrap2 {
+    .download2left {
+      .download2left_text {
+        .download2left_text1 {
+          font-size: 46px;
+
+          .redtext2 {
+            font-size: 46px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1617px) {
+  .downloadwrap2 {
+    .download2left {
+      margin-top: -1px;
+
+      .download2left_text {
+        .download2left_text1 {
+          font-size: 36px;
+
+          .redtext2 {
+            font-size: 36px;
+          }
+        }
+
+        .download2left_text2 {
+          font-size: 18px;
+        }
+
+      }
+    }
+
+    .download2right {
+      margin-top: -132px;
+    }
+  }
+}
+
+@media screen and (max-width:1421px) {
+  .downloadwrap2 {
+    padding-left: 160px;
+    margin-top: 390px;
+  }
+}
+
+@media screen and (max-width:1270px) {
+  .downloadwrap2 {
+    .download2left {
+      margin-top: -64px;
+
+      .download2left_text {
+        .download2left_text1 {
+          font-size: 30px;
+
+          .redtext2 {
+            font-size: 30px;
+          }
+        }
+
+        .download2left_text2 {
+          font-size: 15px;
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1090px) {
+  .downloadwrap2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 640px;
+
+    .download2right {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media screen and (max-width:760px) {
+  .downloadwrap2 {
+    margin-top: 540px;
+
+    .download2left {
+      .download2left_text {
+        .download2left_text1 {
+          font-size: 25px;
+
+          .redtext2 {
+            font-size: 25px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width:607px) {
+  .downloadwrap2 {
+    margin-top: 440px;
+  }
+}

@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 const Precisa = () => {
   const { pathname } = useLocation()
   return (
-    <div className='precisa'>
+    <div className='precisa' id='precisa'>
       <div className='woman4'><img src={pathname === '/client' ? '/assets/images/woman4.png' : '/assets/images/woman8.png'} className='girl4' alt='' /></div>
       {pathname === '/client' ? (
         <div className='precisa_text'>

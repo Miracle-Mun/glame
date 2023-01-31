@@ -1,5 +1,6 @@
 import React from 'react';
-import Card from '../../components/Card'
+import Card from '../../components/Card';
+import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import './phone.scss';
 import { useLocation } from 'react-router-dom';
 
@@ -22,7 +23,7 @@ const Phone = () => {
   const { pathname } = useLocation()
   return (
     <div className='phonewrap'>
-      <a href='#phonecontainer'><div className='circle1'> <img src={pathname === '/client' ? '/assets/images/arrow1.png' : '/assets/images/arrow2.png'} alt='' /></div></a>
+      <Link to='phonecontainer' spy={true} smooth={true} offset={50} duration={500}><div className='circle1'> <img src={pathname === '/client' ? '/assets/images/arrow1.png' : '/assets/images/arrow2.png'} alt='' /></div></Link>
       <div className='phonecontainer' id='phonecontainer'>
         <div className='phoneleft'>
           <div className='phoneleft_img'></div><img src='/assets/images/phone.png' className='phone' alt='' />

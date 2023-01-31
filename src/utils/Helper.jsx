@@ -13,7 +13,7 @@ export const useResize = () => {
     setScreenSize({
       width: window.innerWidth,
       height: window.innerHeight,
-      isMobile: window.innerWidth < 768,
+      isMobile: window.innerWidth < 996,
       isResponsive: window.innerWidth < 1320,
       isResize: true
     })

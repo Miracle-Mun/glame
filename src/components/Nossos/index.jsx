@@ -44,7 +44,7 @@ const nossoscards = [
 const Nossos = () => {
   const { pathname } = useLocation()
   return (
-    <div className='nossos'>
+    <div className='nossos' id='nossos'>
       <div className='nossos_top'>
         <div className='nossostexts'>
           <div className='nossos_img'><img src={pathname === '/client' ? '/assets/images/gray1.png' : '/assets/images/gray2.png'} className='vector8' /></div>

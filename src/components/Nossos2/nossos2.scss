@@ -1,0 +1,50 @@
+.nossos2 {
+  padding: 0px 252.88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 125.81px;
+
+  .nossos2_top {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .nossos2texts {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .nossos2_img {
+      width: 211px;
+
+      .vgray2 {
+        width: 100%;
+      }
+    }
+
+    .nossos2_text {
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 56px;
+      line-height: 75px;
+      text-align: center;
+      color: #2B2847;
+      margin-left: -20%;
+
+    }
+  }
+
+  .nossos2_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 68.97px;
+    gap: 91px;
+  }
+}

@@ -1,0 +1,111 @@
+.precisa2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 264.4px;
+
+  .precisa2woman4 {
+    width: 100%;
+
+    .precisa2girl4 {
+      width: 100%;
+    }
+  }
+
+
+  .precisa2_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -48%;
+    margin-left: -33%;
+
+    .precisa2txt1 {
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 56px;
+      line-height: 75px;
+      text-align: center;
+
+      /* Monocromático/Branco */
+
+      color: #2B2847;
+    }
+
+    .precisa2txt2 {
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: 0.08em;
+      margin-top: 29px;
+      color: #2B2847;
+
+      .carreira {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 1500;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.08em;
+        margin-top: 29px;
+        color: #2B2847
+      }
+    }
+
+
+    .precisa2btn2 {
+      margin-top: 82px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 264px;
+      height: 50px;
+      left: 1122.25px;
+      top: 3658.74px;
+      background: #4E819B;
+      border-radius: 16px;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 25px;
+      /* identical to box height */
+      cursor: pointer;
+      text-align: center;
+      letter-spacing: 0.08em;
+
+      color: #FFFFFF;
+    }
+  }
+}
+
+@media screen and (max-width:1382px) {
+  .precisa2 {
+    .precisa2_text {
+      margin-top: -50%;
+      margin-left: -24%;
+
+      .precisa2txt1 {
+        font-size: 46px;
+      }
+
+      .precisa2txt2 {
+        font-size: 15px;
+
+        .carreira {
+          font-size: 15px;
+        }
+      }
+
+      .precisa2btn2 {
+        margin-top: 45px;
+      }
+    }
+  }
+}

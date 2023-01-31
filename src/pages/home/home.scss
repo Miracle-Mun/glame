@@ -123,44 +123,53 @@
         margin-top: 74px;
         width: 100%;
 
-        .btn1 {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          height: 60px;
-          left: 372px;
-          top: 703px;
-          background: #4E819B;
-          border-radius: 16px;
-          font-family: 'Gilroy';
-          font-style: normal;
-          font-weight: 800;
-          font-size: 24px;
-          line-height: 29px;
-          text-align: center;
-          color: #FFFFFF;
+        .button1 {
+          text-decoration: none;
+
+          .btn1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 60px;
+            left: 372px;
+            top: 703px;
+            background: #4E819B;
+            border-radius: 16px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #FFFFFF;
+          }
         }
 
-        .btn2 {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          height: 60px;
-          left: 372px;
-          top: 703px;
-          background: #EEA4A7;
-          border-radius: 16px;
-          font-family: 'Gilroy';
-          font-style: normal;
-          font-weight: 800;
-          font-size: 24px;
-          line-height: 29px;
-          text-align: center;
-          color: #FFFFFF;
-          margin-top: 24px;
 
+        .button2 {
+          text-decoration: none;
+
+          .btn2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 60px;
+            left: 372px;
+            top: 703px;
+            background: #EEA4A7;
+            border-radius: 16px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 24px;
+
+          }
         }
 
       }

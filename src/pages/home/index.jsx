@@ -21,8 +21,8 @@ const Home = () => {
           </div>
           <div className='homeleft3'>Be Glam, a beleza a três cliques de distância.</div>
           <div className='homeleft4'>
-            <div className='btn1'>Sou profissional de beleza</div>
-            <div className='btn2'>Quero Contratar uma profissional</div>
+            <Link to='/profession' className='button1'><div className='btn1'>Sou profissional de beleza</div></Link>
+            <Link to='/client' className='button2'><div className='btn2'>Quero Contratar uma profissional</div></Link>
           </div>
           <div className='shape'><img src='/assets/images/violet.png' /></div>
         </div>

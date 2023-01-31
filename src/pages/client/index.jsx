@@ -25,7 +25,7 @@ const Client = () => {
       <Nossos />
       <Precisa />
       <Somos />
-      <div className='glamtext'>
+      <div className='glamtext' id='glam'>
         <div className='glam'>Be Glam por aí</div>
         <div className={pathname === '/client' ? 'beglam1' : 'beglam2'}>@beglam</div>
       </div>

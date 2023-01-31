@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 const Footer = () => {
   const { pathname } = useLocation()
   return (
-    <div className='footerwrap'>
+    <div className='footerwrap' id='footerwrap'>
       <div className='footerleft'>
         <div className='footerleft_text'>Redes Sociais</div>
         <div className='soicals'>

@@ -1,0 +1,48 @@
+.header2wrap {
+  padding-left: 282.04px;
+  padding-right: 275.5px;
+
+  .header2container {
+    padding-top: 43.01px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header2btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1184px;
+
+    .header2btn2 {
+      cursor: pointer;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      letter-spacing: 0.08em;
+      color: #4E819B;
+    }
+  }
+}
+
+@media screen and (max-width:1516px) {
+  .header2wrap {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width:996px) {
+  .header2wrap {
+    .header2container {
+      .header2btns {
+        display: none;
+      }
+    }
+  }
+}
