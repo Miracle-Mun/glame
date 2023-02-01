@@ -15,7 +15,17 @@ const Comocard = (props) => {
           )
       }
 
-      <div className='comtitle'>{props.items.title}</div>
+      {
+        pathname === '/client' ? (
+          <div className='comtitle'>{props.items.title}</div>
+        )
+          :
+          (
+            <div className='comtitle'>{props.items.title1}</div>
+          )
+      }
+
+
     </div>
   )
 }

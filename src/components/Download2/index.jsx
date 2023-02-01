@@ -1,6 +1,6 @@
 import React from 'react';
 import './download2.scss';
-import ScrollToTop from "react-scroll-to-top";
+
 
 const Download2 = () => {
 
@@ -9,7 +9,6 @@ const Download2 = () => {
 
       <div className='download2left'>
         <div className='download2left_text'>
-
           <div className='download2left_text1'>
             Ganhe mais e conte com toda<br />
             <span className='redtext2'>segurança e parceria </span>Be Glam.
@@ -23,8 +22,6 @@ const Download2 = () => {
       <div className='download2right'>
         <div className='download2woman2'><img src='/assets/images/woman6.png' className='download2girl2' /></div>
       </div>
-
-      <ScrollToTop smooth />
     </div>
 
 

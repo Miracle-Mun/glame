@@ -7,19 +7,19 @@ import './phone2.scss';
 const card2 = [
   {
     img: 'assets/images/phone2_1.png',
-    title: 'A forma mais rápida e prática de agendar e receber profissionais de beleza e estética na sua casa com poucos cliques. ',
+    title: 'A forma mais rápida, prática e segura de vender seus serviços com toda estrutura e base de clientes fixas. ',
   },
   {
     img: 'assets/images/phone2_2.png',
-    title: 'Na Be Glam contamos com diversos profissionais: De manicure e esteticista, um portfólio completo.  ',
+    title: 'Na Be Glam você pode criar a sua própria vitrine pessoal anunciando seus serviços para potenciais clientes.  ',
   },
   {
     img: 'assets/images/phone2_3.png',
-    title: 'Com a Be Glam a autonomia está nas suas mãos, você decide os horários, distância de atendimento e quais serviços gostaria de oferecer aos seus clientes. ',
+    title: 'Com a Be Glam a autonomia está nas suas mãos, você decide os horários, distância de atendimento e quais serviços gostaria de oferecer aos seus clientes.  ',
   },
   {
     img: 'assets/images/phone2_4.png',
-    title: 'E tudo isso na praticidade de solicitar via aplicativo, e não só isso, com a opção de pagar direto ao profissional ou pelo APP, você escolhe.  ',
+    title: 'E tudo isso na praticidade de gerenciar via aplicativo cada uma das solicitações ou serviços prestados.  ',
   },
 ]
 const Phone2 = () => {

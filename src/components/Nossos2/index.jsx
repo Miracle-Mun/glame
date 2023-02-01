@@ -4,40 +4,34 @@ import Nossos2card from '../../components/Nossos2card';
 
 const nossos2cards = [
   {
-    img: 'assets/images/circle5.png',
+
     img1: 'assets/images/circle6.png',
-    title: 'Unhas',
-    content: 'Pés e Mãos, Mãos e muito mais'
+    content: 'Treinamentos e Workshops exclusivos.'
   },
   {
-    img: 'assets/images/circle5.png',
+
     img1: 'assets/images/circle6.png',
-    title: 'Salão de Beleza',
-    content: 'Corte de cabelo, maquiagem e tonificação.'
+    content: 'Receba em até 1h30 o valor do serviço. '
   },
   {
-    img: 'assets/images/circle5.png',
+
     img1: 'assets/images/circle6.png',
-    title: 'Massagem',
-    content: 'Massagem Relaxante, Modeladora e Estética.'
+    content: 'Desconto em Marketplaces parceiros de até 20%.'
   },
   {
-    img: 'assets/images/circle5.png',
+
     img1: 'assets/images/circle6.png',
-    title: 'Estética',
-    content: 'Limpeza de pele tradicional,Limpeza de pele com hidratação'
+    content: 'Linha de crédito exclusiva de até R$ 5.000.00.'
   },
   {
-    img: 'assets/images/circle5.png',
+
     img1: 'assets/images/circle6.png',
-    title: 'Depilação',
-    content: 'Pernas Masc, Braços Masc e muito mais'
+    content: 'Gestão facilitada de agenda e clientes.'
   },
   {
-    img: 'assets/images/circle5.png',
+
     img1: 'assets/images/circle6.png',
-    title: 'Barbearia',
-    content: 'Corte tradicional ou degradê MASC, Barba e muito mais'
+    content: 'Gestão facilitada de agenda e clientes.'
   },
 ]
 const Nossos2 = () => {
@@ -46,7 +40,7 @@ const Nossos2 = () => {
       <div className='nossos2_top'>
         <div className='nossos2texts'>
           <div className='nossos2_img'><img src='/assets/images/gray2.png' className='gray2' /></div>
-          <div className='nossos2_text'>Nossos Serviços</div>
+          <div className='nossos2_text'>Exclusividades Be Glam</div>
         </div>
       </div>
       <div className='nossos2_bottom'>

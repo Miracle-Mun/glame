@@ -1,156 +1,186 @@
 .agende2 {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 300px;
 
-  .agende2wrap {
+  .agendewrap2 {
     width: 100%;
     position: relative;
 
-  }
-
-  .agende2woman3 {
-    width: 100%;
-
-    .agende2girl3 {
-      width: 100%;
-
-    }
-  }
-
-
-  .agende2_text {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -42%;
-    margin-left: 49%;
-
-    .agende2txt1 {
-      font-family: 'Playfair Display';
-      font-style: normal;
-      font-weight: 900;
-      font-size: 56px;
-      line-height: 75px;
-      text-align: center;
-
-      /* Monocromático/Branco */
-
-      color: #FFFFFF;
+    .agendeimg1 {
+      width: 23%;
     }
 
-    .agende2txt2 {
-      font-family: 'Gilroy';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 28px;
-      text-align: center;
-      letter-spacing: 0.08em;
-      margin-top: 63px;
-      color: #FFFFFF;
+    .agendeimg3 {
+      position: absolute;
+      margin-left: -13%;
+      margin-top: -100px;
+      z-index: 100;
+      width: 47%;
+    }
 
-      .r500 {
+    .agendeimg2 {
+      position: absolute;
+      margin-left: 15%;
+      margin-top: -16px;
+      z-index: 10;
+      width: 51%;
+    }
+
+    .agendeimg4 {
+      position: absolute;
+      right: 0px;
+      top: 219px;
+      width: 28%;
+    }
+
+    .agende2text {
+      position: absolute;
+      width: 35%;
+      margin-left: 48%;
+      margin-top: -10%;
+      z-index: 10000000000000;
+
+      .agende2text_1 {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 75px;
+        text-align: center;
+
+        color: #FFFFFF;
+      }
+
+      .agende2text_2 {
         font-family: 'Gilroy';
         font-style: normal;
-        font-weight: 800;
-        font-size: 26px;
+        font-weight: 300;
+        font-size: 24px;
         line-height: 28px;
         text-align: center;
         letter-spacing: 0.08em;
-        margin-top: 29px;
+        padding-top: 63px;
+        color: #FFFFFF;
+
+        .rs500 {
+          font-weight: 600;
+        }
+      }
+
+      .agende2textbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 264px;
+        height: 50px;
+        left: 1106.76px;
+        top: 3898.28px;
+        background: #60EAC0;
+        border-radius: 16px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        /* identical to box height */
+        margin-top: 63px;
+        text-align: center;
+        letter-spacing: 0.08em;
+        margin: 63px auto 0px auto;
         color: #FFFFFF;
       }
     }
-
-
-
-    .agende2btn2 {
-      margin-top: 63px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 264px;
-      height: 50px;
-      background: #60EAC0;
-      border-radius: 16px;
-      font-family: 'Gilroy';
-      font-style: normal;
-      font-weight: 800;
-      font-size: 20px;
-      line-height: 25px;
-      /* identical to box height */
-      cursor: pointer;
-      text-align: center;
-      letter-spacing: 0.08em;
-
-      color: #FFFFFF;
-    }
   }
 }
 
-@media screen and (max-width:1672px) {
-  .agende2 {
-    .agendewrap2 {
-      .agende2_text {
-        margin-left: 47%;
-      }
-    }
-  }
-}
 
-@media screen and (max-width:1624px) {
-  .agende2 {
-    .agendewrap2 {
-      .agende2_text {
-        margin-top: -46%;
-      }
-    }
-  }
-}
 
-@media screen and (max-width:1512px) {
+@media screen and (max-width:1825px) {
   .agende2 {
     .agendewrap2 {
-      .agende2_text {
-        .agende2txt1 {
+      .agende2text {
+        .agende2text_1 {
           font-size: 46px;
-          line-height: 60px;
+          line-height: 65px;
         }
 
-        .agende2txt2 {
-          font-size: 18px;
-          margin-top: 30px;
-        }
-
-        .agende2btn2 {
-          width: 50%;
-          margin-top: 30px;
+        .agende2text_2 {
+          font-size: 20px;
+          padding-top: 43px;
         }
       }
     }
   }
 }
 
-@media screen and (max-width:1240px) {
+@media screen and (max-width:1510px) {
   .agende2 {
     .agendewrap2 {
-      .agende2_text {
-        .agende2txt1 {
-          font-size: 30px;
+      .agende2text {
+        margin-top: -12%;
+
+        .agende2textbtn {
+          font-size: 15px;
+          width: 40%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1380px) {
+  .agende2 {
+    .agendewrap2 {
+      .agende2text {
+        .agende2text_1 {
+          font-size: 40px;
           line-height: 50px;
-
         }
 
-        .agende2txt2 {
-          margin-top: 20px;
+        .agende2text_2 {
+          padding-top: 30px;
+          font-size: 15px;
         }
 
-        .agende2btn2 {
-          width: 60%;
+        .agende2textbtn {
+          margin: 30px auto 0px auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1288px) {
+  .agende2 {
+    .agendewrap2 {
+      .agende2text {
+        .agende2text_1 {
+          font-size: 35px;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1086px) {
+  .agende2 {
+    .agendewrap2 {
+      .agende2text {
+        .agende2text_1 {
+          font-size: 30px;
+        }
+
+        .agende2text_2 {
+          font-size: 12px;
+          padding-top: 20px;
+        }
+
+        .agende2textbtn {
+          font-size: 12px;
         }
       }
     }

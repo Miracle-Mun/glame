@@ -12,6 +12,7 @@ import Glam from '../../components/Glam';
 import Footer from '../../components/Footer';
 import Bottom from '../../components/Bottom';
 import { useLocation } from 'react-router-dom';
+import ScrollToTop from "react-scroll-to-top";
 
 const Profession = () => {
   const { pathname } = useLocation()
@@ -33,6 +34,7 @@ const Profession = () => {
       <div className={pathname === '/client' ? 'imgcolor' : 'imgcolor1'}>
         <Footer />
         <Bottom />
+        <ScrollToTop smooth />
       </div>
     </div>
   )

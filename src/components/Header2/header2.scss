@@ -1,20 +1,25 @@
 .header2wrap {
-  padding-left: 282.04px;
-  padding-right: 275.5px;
+  padding-top: 80px;
 
   .header2container {
-    padding-top: 43.01px;
+    padding-top: 50.01px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    max-width: 1362.4px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .header2btns {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1184px;
+    width: 82%;
+    margin-left: 124.96px;
 
     .header2btn2 {
       cursor: pointer;
@@ -37,9 +42,14 @@
   }
 }
 
-@media screen and (max-width:996px) {
+@media screen and (max-width:1170px) {
   .header2wrap {
     .header2container {
+      .header2logo {
+        position: absolute;
+        left: 0px;
+      }
+
       .header2btns {
         display: none;
       }

@@ -157,3 +157,23 @@
     }
   }
 }
+
+@media screen and (max-width:1090px) {
+  .phone2wrap {
+    .phone2circle {
+      margin-top: -340px;
+    }
+
+    .phone2container {
+      .phone2right {
+        margin-top: -800px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:827px) {
+  .phone2wrap {
+    margin-top: 20px;
+  }
+}

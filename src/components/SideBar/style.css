@@ -87,7 +87,7 @@ body {
   left: 0px;
 }
 
-@media screen and (max-width:996px) {
+@media screen and (max-width:1170px) {
   .bm-burger-button {
     display: flex;
   }
