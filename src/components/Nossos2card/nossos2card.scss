@@ -14,39 +14,24 @@
     margin-top: -15%;
   }
 
-  .nosso2cardtitle {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 43px;
-    margin-top: 27px;
-    /* identical to box height */
-
-    text-align: center;
-
-    /* Principal/Monocromático/Principal/#1 */
-
-    color: #2B2847;
-  }
-
   .nosso2cardcontent {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
-    line-height: 23px;
+    font-size: 28px;
+    line-height: 32px;
     text-align: center;
-    letter-spacing: 0.08em;
-    /* Principal/Monocromático/Principal/#1 */
-    margin-top: 10%;
+    letter-spacing: -0.02em;
     color: #2B2847;
+    margin-top: 48.08px;
+    width: 85%;
   }
 
 }
 
-@media screen and (max-width:420px) {
-  .nossos2wrap {
+@media screen and (max-width:1433px) {
+  .nosso2cardswrap {
     width: 300px;
+
   }
 }

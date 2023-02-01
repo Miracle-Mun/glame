@@ -6,7 +6,6 @@ const Nossos2card = (props) => {
     <div className='nosso2cardswrap'>
 
       <img src={props.items.img1} className='nossos2img' alt='' />
-      <div className='nosso2cardtitle'>{props.items.title}</div>
       <div className='nosso2cardcontent'>{props.items.content}</div>
     </div>
   )
